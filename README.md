@@ -1,18 +1,5 @@
-## Getting Started
+## Explorando Padrões de Projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Durante os estudos do Bootcamp Santander 2023 DIO, foi pedido para realizar um padrão de projeto. Segui a ideia do padrão "Strategy", porém para não ficar muito padrão, decidir trazer um pouco do que gosto, que é o mundo dos games.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Então, na realização desta atividade, criei 3 tipos de personanges (Mago, Bardo e Guerreiro), cada um com seus atributo que influenciam no 'jogo'. Os personagens também tem ações como se mover, atacar e defender. Os dois últimos têm influência do tipo de movimento e dos atributos que cada personagem tem. Dessa forma, foi preciso criar 3 classes que determinam os tipos de movimentos dos personagens: ação defensiva, ofensiva e normal.
